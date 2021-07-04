@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/narukara/project/esp/band/components/MAX30102/include",
+                "/home/narukara/project/esp/band/components/NAR_I2C/include",
+                "/home/narukara/project/esp/band/components/MPU6050/include",
+                "/home/narukara/project/esp/band/components/SSD1306/include",
+                "/home/narukara/project/esp/band/components/NAR_GPIO/include",
+                "/home/narukara/project/esp/esp-idf/components/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
